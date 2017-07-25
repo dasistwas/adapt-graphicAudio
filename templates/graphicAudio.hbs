@@ -1,0 +1,9 @@
+<div class="graphic-inner component-inner" role="region" aria-label="{{_globals._components._graphic.ariaRegion}}">
+    {{> component this}}
+    <div class="graphic-widget not-playing component-widget{{#if _graphic.attribution}} graphic-widget-attribution{{/if}}">
+      <img src="{{_graphic.src}}" data-large="{{_graphic.large}}" data-small="{{_graphic.small}}"{{#if _graphic.alt}} aria-label="{{_graphic.alt}}" tabindex="0"{{else}} class="a11y-ignore" aria-hidden="true" tabindex="-1"{{/if}}/>
+    </div>
+    {{#if _graphic.attribution}}
+      <div class="graphic-attribution">{{{_graphic.attribution}}}</div>
+    {{/if}}
+</div>

@@ -1,0 +1,19 @@
+    {
+        "_id": "c-30",
+        "_parentId": "b-15",
+        "_type": "component",
+        "_component": "graphicaudio",
+        "_classes": "",
+        "_layout": "left",
+        "title": "Graphic with audio",
+        "displayTitle": "Graphic with audio",
+        "body": "This is the body text",
+        "instruction": "Click on the graphic to hear the audio",
+        "_graphic": {
+            "alt": "alt text",
+            "large": "http://cdn.lipstiq.com/wp-content/uploads/2013/07/minions-film.jpg",
+            "small": "http://minionslovebananas.com/images/check-in-minion.jpg",
+            "attribution": "Copyright © 2015"
+        },
+        "_audio": "course/en/audio/c-30.mp3"
+    }

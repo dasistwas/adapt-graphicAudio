@@ -1,0 +1,16 @@
+{
+  "name": "adapt-graphicAudio",
+  "version": "0.0.1",
+  "framework": "^2.0.15",
+  "homepage": "",
+  "issues": "",
+  "displayName" : "Graphic with Audio",
+  "component" : "graphicaudio",
+  "description": "A graphic component (based on adapt-contrib-graphic) that plays audio when the graphic is clicked",
+  "main": "/js/adapt-graphicAudio.js",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-component"
+  ],
+  "license": ""
+}
