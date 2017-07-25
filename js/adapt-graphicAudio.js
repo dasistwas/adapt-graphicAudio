@@ -15,7 +15,7 @@ define([
         isPlaying: false,
 
         events:  {
-            'click img': 'onImageClicked'
+            'click .graphic-widget': 'onImageClicked'
         },
 
         preRender: function() {
@@ -77,7 +77,7 @@ define([
             this.isPlaying = true;
 
             this.$('.graphic-widget').removeClass('not-playing').addClass('playing');
-            
+
             // stop any other media on the page from playing
             Adapt.trigger("media:stop", this);
         },
@@ -110,7 +110,7 @@ define([
 
             this.playAudio();
         },
-        
+
         onMediaStop: function(view) {
             // Make sure this view isn't triggering media:stop
             if (view && view.cid === this.cid) return;
